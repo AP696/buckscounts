@@ -13,3 +13,43 @@
 }
 
 /* your code */
+body {
+  margin: 1em 25%;
+  background-color: #1e3932 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav h1 {
+  color: white;
+}
+
+
+header {
+  display: flex;
+  background-color: grey;
+  border-radius: 2px;
+}
+
+#icon {
+  justify-content: flex-end;
+
+}
+
+.city-list {
+  background: #1e3932;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  border: 2px solid white;
+}
+
+.city-item {
+  display: flex;
+  align-items: flex-end;
+  margin: 0.5rem 0.5rem;
+  background: #00754a;
+  padding: 5px;
+}
